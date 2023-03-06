@@ -240,6 +240,14 @@ header .toggle {
     padding-top: 20px;
 }
 
+.show-menu {
+    left: 0;
+}
+
+.active {
+    color: #ff0000;
+}
+
 /*----nav_dropdown----*/
 
 

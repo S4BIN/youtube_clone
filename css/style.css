@@ -222,7 +222,23 @@ header .toggle {
     margin-right: 10px;
     padding: 5px;
 }
-/*min 26:30 */
+
+.nav_dropdown-items,
+.nav_dropdown-second {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.navtop .nav_link:nth-child(4) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+}
+
+.subscribe-container {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+}
 
 /*----nav_dropdown----*/
 

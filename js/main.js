@@ -1,8 +1,9 @@
 const showMenu = (headerToggle, navbarId) => {
     const toggleBtn = document.getElementById(headerToggle);
+        nav = document.getElementById(navbarId)
 
     if (headerToggle && navbarId) {
-        toggleBtn.addEventsListerner('click',() => {
+        toggleBtn.addEventListener('click',() => {
             nav.classList.toggle('show-menu')
             toggleBtn.classList.toggle('fa-times')
         })
@@ -18,4 +19,4 @@ function colorLink() {
     this.classList.add('active')
 }
 
-linkcolor.forEach(1 => 1.addEventsListerner('click', colorLink))
+linkcolor.forEach(1 => 1.addEventListener('click', colorLink))

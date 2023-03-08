@@ -252,7 +252,7 @@ header .toggle {
 /*----nav----*/
 
 /*----video_items----*/
-.video_items {
+.video_items video {
     width: 295px;
     height: 170px;
 }
@@ -301,7 +301,6 @@ header .toggle {
     display: flex;
 }
 
-/* min 52 */
 /*----video_items----*/
 
 
@@ -377,5 +376,22 @@ header .toggle {
 @media screen and (max-width:420px) {
     header .search {
         width: 70%;
+    }
+
+    header .none,
+    header .user {
+        display: none;
+    }
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width:1080px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
     }
 }

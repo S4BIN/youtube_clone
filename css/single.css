@@ -1,0 +1,39 @@
+.left {
+    width: 1000px;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.right {
+    width: 350px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.left .left_content {
+    width: 1000px;
+}
+
+.right_content {
+    width: 350px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left video {
+    width: 100%;
+    height: 70vh;
+}
+
+.tags {
+    color: #014bd6;
+    font-weight: 500;
+    font-size: 15px;
+}
